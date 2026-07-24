@@ -38,6 +38,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0198-house-robber](https://github.com/himanshurainaa/leetcode-practice/tree/master/0198-house-robber) |
+| [0682-baseball-game](https://github.com/himanshurainaa/leetcode-practice/tree/master/0682-baseball-game) |
 | [0977-squares-of-a-sorted-array](https://github.com/himanshurainaa/leetcode-practice/tree/master/0977-squares-of-a-sorted-array) |
 | [1550-three-consecutive-odds](https://github.com/himanshurainaa/leetcode-practice/tree/master/1550-three-consecutive-odds) |
 | [1672-richest-customer-wealth](https://github.com/himanshurainaa/leetcode-practice/tree/master/1672-richest-customer-wealth) |
@@ -61,6 +62,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Simulation
 |  |
 | ------- |
+| [0682-baseball-game](https://github.com/himanshurainaa/leetcode-practice/tree/master/0682-baseball-game) |
 | [2974-minimum-number-game](https://github.com/himanshurainaa/leetcode-practice/tree/master/2974-minimum-number-game) |
 ## Two Pointers
 |  |
@@ -79,4 +81,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1672-richest-customer-wealth](https://github.com/himanshurainaa/leetcode-practice/tree/master/1672-richest-customer-wealth) |
+## Stack
+|  |
+| ------- |
+| [0682-baseball-game](https://github.com/himanshurainaa/leetcode-practice/tree/master/0682-baseball-game) |
 <!---LeetCode Topics End-->

@@ -15,6 +15,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0387-first-unique-character-in-a-string](https://github.com/himanshurainaa/leetcode-practice/tree/master/0387-first-unique-character-in-a-string) |
 | [1832-check-if-the-sentence-is-pangram](https://github.com/himanshurainaa/leetcode-practice/tree/master/1832-check-if-the-sentence-is-pangram) |
+| [2108-find-first-palindromic-string-in-the-array](https://github.com/himanshurainaa/leetcode-practice/tree/master/2108-find-first-palindromic-string-in-the-array) |
 | [2114-maximum-number-of-words-found-in-sentences](https://github.com/himanshurainaa/leetcode-practice/tree/master/2114-maximum-number-of-words-found-in-sentences) |
 ## Queue
 |  |
@@ -27,6 +28,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [2108-find-first-palindromic-string-in-the-array](https://github.com/himanshurainaa/leetcode-practice/tree/master/2108-find-first-palindromic-string-in-the-array) |
 | [2114-maximum-number-of-words-found-in-sentences](https://github.com/himanshurainaa/leetcode-practice/tree/master/2114-maximum-number-of-words-found-in-sentences) |
 | [2974-minimum-number-game](https://github.com/himanshurainaa/leetcode-practice/tree/master/2974-minimum-number-game) |
 ## Sorting
@@ -41,4 +43,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2974-minimum-number-game](https://github.com/himanshurainaa/leetcode-practice/tree/master/2974-minimum-number-game) |
+## Two Pointers
+|  |
+| ------- |
+| [2108-find-first-palindromic-string-in-the-array](https://github.com/himanshurainaa/leetcode-practice/tree/master/2108-find-first-palindromic-string-in-the-array) |
 <!---LeetCode Topics End-->

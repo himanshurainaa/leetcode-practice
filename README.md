@@ -35,6 +35,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0198-house-robber](https://github.com/himanshurainaa/leetcode-practice/tree/master/0198-house-robber) |
+| [0977-squares-of-a-sorted-array](https://github.com/himanshurainaa/leetcode-practice/tree/master/0977-squares-of-a-sorted-array) |
 | [2108-find-first-palindromic-string-in-the-array](https://github.com/himanshurainaa/leetcode-practice/tree/master/2108-find-first-palindromic-string-in-the-array) |
 | [2114-maximum-number-of-words-found-in-sentences](https://github.com/himanshurainaa/leetcode-practice/tree/master/2114-maximum-number-of-words-found-in-sentences) |
 | [2798-number-of-employees-who-met-the-target](https://github.com/himanshurainaa/leetcode-practice/tree/master/2798-number-of-employees-who-met-the-target) |
@@ -44,6 +45,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Sorting
 |  |
 | ------- |
+| [0977-squares-of-a-sorted-array](https://github.com/himanshurainaa/leetcode-practice/tree/master/0977-squares-of-a-sorted-array) |
 | [2974-minimum-number-game](https://github.com/himanshurainaa/leetcode-practice/tree/master/2974-minimum-number-game) |
 | [3024-type-of-triangle](https://github.com/himanshurainaa/leetcode-practice/tree/master/3024-type-of-triangle) |
 ## Heap (Priority Queue)
@@ -57,6 +59,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Two Pointers
 |  |
 | ------- |
+| [0977-squares-of-a-sorted-array](https://github.com/himanshurainaa/leetcode-practice/tree/master/0977-squares-of-a-sorted-array) |
 | [2108-find-first-palindromic-string-in-the-array](https://github.com/himanshurainaa/leetcode-practice/tree/master/2108-find-first-palindromic-string-in-the-array) |
 ## Dynamic Programming
 |  |

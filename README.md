@@ -7,6 +7,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1486-xor-operation-in-an-array](https://github.com/himanshurainaa/leetcode-practice/tree/master/1486-xor-operation-in-an-array) |
 | [2652-sum-multiples](https://github.com/himanshurainaa/leetcode-practice/tree/master/2652-sum-multiples) |
 | [2894-divisible-and-non-divisible-sums-difference](https://github.com/himanshurainaa/leetcode-practice/tree/master/2894-divisible-and-non-divisible-sums-difference) |
+| [3024-type-of-triangle](https://github.com/himanshurainaa/leetcode-practice/tree/master/3024-type-of-triangle) |
 ## Hash Table
 |  |
 | ------- |
@@ -37,10 +38,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2114-maximum-number-of-words-found-in-sentences](https://github.com/himanshurainaa/leetcode-practice/tree/master/2114-maximum-number-of-words-found-in-sentences) |
 | [2798-number-of-employees-who-met-the-target](https://github.com/himanshurainaa/leetcode-practice/tree/master/2798-number-of-employees-who-met-the-target) |
 | [2974-minimum-number-game](https://github.com/himanshurainaa/leetcode-practice/tree/master/2974-minimum-number-game) |
+| [3024-type-of-triangle](https://github.com/himanshurainaa/leetcode-practice/tree/master/3024-type-of-triangle) |
 ## Sorting
 |  |
 | ------- |
 | [2974-minimum-number-game](https://github.com/himanshurainaa/leetcode-practice/tree/master/2974-minimum-number-game) |
+| [3024-type-of-triangle](https://github.com/himanshurainaa/leetcode-practice/tree/master/3024-type-of-triangle) |
 ## Heap (Priority Queue)
 |  |
 | ------- |

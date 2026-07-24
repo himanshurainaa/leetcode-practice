@@ -38,6 +38,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0198-house-robber](https://github.com/himanshurainaa/leetcode-practice/tree/master/0198-house-robber) |
 | [0977-squares-of-a-sorted-array](https://github.com/himanshurainaa/leetcode-practice/tree/master/0977-squares-of-a-sorted-array) |
+| [1672-richest-customer-wealth](https://github.com/himanshurainaa/leetcode-practice/tree/master/1672-richest-customer-wealth) |
 | [2108-find-first-palindromic-string-in-the-array](https://github.com/himanshurainaa/leetcode-practice/tree/master/2108-find-first-palindromic-string-in-the-array) |
 | [2114-maximum-number-of-words-found-in-sentences](https://github.com/himanshurainaa/leetcode-practice/tree/master/2114-maximum-number-of-words-found-in-sentences) |
 | [2798-number-of-employees-who-met-the-target](https://github.com/himanshurainaa/leetcode-practice/tree/master/2798-number-of-employees-who-met-the-target) |
@@ -71,4 +72,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1486-xor-operation-in-an-array](https://github.com/himanshurainaa/leetcode-practice/tree/master/1486-xor-operation-in-an-array) |
+## Matrix
+|  |
+| ------- |
+| [1672-richest-customer-wealth](https://github.com/himanshurainaa/leetcode-practice/tree/master/1672-richest-customer-wealth) |
 <!---LeetCode Topics End-->

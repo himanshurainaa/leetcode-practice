@@ -40,6 +40,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0016-3sum-closest](https://github.com/himanshurainaa/leetcode-practice/tree/master/0016-3sum-closest) |
 | [0198-house-robber](https://github.com/himanshurainaa/leetcode-practice/tree/master/0198-house-robber) |
 | [0682-baseball-game](https://github.com/himanshurainaa/leetcode-practice/tree/master/0682-baseball-game) |
 | [0977-squares-of-a-sorted-array](https://github.com/himanshurainaa/leetcode-practice/tree/master/0977-squares-of-a-sorted-array) |
@@ -56,6 +57,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Sorting
 |  |
 | ------- |
+| [0016-3sum-closest](https://github.com/himanshurainaa/leetcode-practice/tree/master/0016-3sum-closest) |
 | [0977-squares-of-a-sorted-array](https://github.com/himanshurainaa/leetcode-practice/tree/master/0977-squares-of-a-sorted-array) |
 | [2974-minimum-number-game](https://github.com/himanshurainaa/leetcode-practice/tree/master/2974-minimum-number-game) |
 | [3024-type-of-triangle](https://github.com/himanshurainaa/leetcode-practice/tree/master/3024-type-of-triangle) |
@@ -73,6 +75,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Two Pointers
 |  |
 | ------- |
+| [0016-3sum-closest](https://github.com/himanshurainaa/leetcode-practice/tree/master/0016-3sum-closest) |
 | [0977-squares-of-a-sorted-array](https://github.com/himanshurainaa/leetcode-practice/tree/master/0977-squares-of-a-sorted-array) |
 | [2108-find-first-palindromic-string-in-the-array](https://github.com/himanshurainaa/leetcode-practice/tree/master/2108-find-first-palindromic-string-in-the-array) |
 ## Dynamic Programming

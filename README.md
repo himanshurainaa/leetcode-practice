@@ -4,6 +4,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Math
 |  |
 | ------- |
+| [0628-maximum-product-of-three-numbers](https://github.com/himanshurainaa/leetcode-practice/tree/master/0628-maximum-product-of-three-numbers) |
 | [1281-subtract-the-product-and-sum-of-digits-of-an-integer](https://github.com/himanshurainaa/leetcode-practice/tree/master/1281-subtract-the-product-and-sum-of-digits-of-an-integer) |
 | [1486-xor-operation-in-an-array](https://github.com/himanshurainaa/leetcode-practice/tree/master/1486-xor-operation-in-an-array) |
 | [1822-sign-of-the-product-of-an-array](https://github.com/himanshurainaa/leetcode-practice/tree/master/1822-sign-of-the-product-of-an-array) |
@@ -44,6 +45,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0016-3sum-closest](https://github.com/himanshurainaa/leetcode-practice/tree/master/0016-3sum-closest) |
 | [0075-sort-colors](https://github.com/himanshurainaa/leetcode-practice/tree/master/0075-sort-colors) |
 | [0198-house-robber](https://github.com/himanshurainaa/leetcode-practice/tree/master/0198-house-robber) |
+| [0628-maximum-product-of-three-numbers](https://github.com/himanshurainaa/leetcode-practice/tree/master/0628-maximum-product-of-three-numbers) |
 | [0682-baseball-game](https://github.com/himanshurainaa/leetcode-practice/tree/master/0682-baseball-game) |
 | [0977-squares-of-a-sorted-array](https://github.com/himanshurainaa/leetcode-practice/tree/master/0977-squares-of-a-sorted-array) |
 | [1550-three-consecutive-odds](https://github.com/himanshurainaa/leetcode-practice/tree/master/1550-three-consecutive-odds) |
@@ -61,6 +63,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0016-3sum-closest](https://github.com/himanshurainaa/leetcode-practice/tree/master/0016-3sum-closest) |
 | [0075-sort-colors](https://github.com/himanshurainaa/leetcode-practice/tree/master/0075-sort-colors) |
+| [0628-maximum-product-of-three-numbers](https://github.com/himanshurainaa/leetcode-practice/tree/master/0628-maximum-product-of-three-numbers) |
 | [0977-squares-of-a-sorted-array](https://github.com/himanshurainaa/leetcode-practice/tree/master/0977-squares-of-a-sorted-array) |
 | [2974-minimum-number-game](https://github.com/himanshurainaa/leetcode-practice/tree/master/2974-minimum-number-game) |
 | [3024-type-of-triangle](https://github.com/himanshurainaa/leetcode-practice/tree/master/3024-type-of-triangle) |

@@ -7,6 +7,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0009-palindrome-number](https://github.com/himanshurainaa/leetcode-practice/tree/master/0009-palindrome-number) |
 | [0486-predict-the-winner](https://github.com/himanshurainaa/leetcode-practice/tree/master/0486-predict-the-winner) |
 | [0628-maximum-product-of-three-numbers](https://github.com/himanshurainaa/leetcode-practice/tree/master/0628-maximum-product-of-three-numbers) |
+| [0877-stone-game](https://github.com/himanshurainaa/leetcode-practice/tree/master/0877-stone-game) |
 | [1281-subtract-the-product-and-sum-of-digits-of-an-integer](https://github.com/himanshurainaa/leetcode-practice/tree/master/1281-subtract-the-product-and-sum-of-digits-of-an-integer) |
 | [1486-xor-operation-in-an-array](https://github.com/himanshurainaa/leetcode-practice/tree/master/1486-xor-operation-in-an-array) |
 | [1822-sign-of-the-product-of-an-array](https://github.com/himanshurainaa/leetcode-practice/tree/master/1822-sign-of-the-product-of-an-array) |
@@ -61,6 +62,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0486-predict-the-winner](https://github.com/himanshurainaa/leetcode-practice/tree/master/0486-predict-the-winner) |
 | [0628-maximum-product-of-three-numbers](https://github.com/himanshurainaa/leetcode-practice/tree/master/0628-maximum-product-of-three-numbers) |
 | [0682-baseball-game](https://github.com/himanshurainaa/leetcode-practice/tree/master/0682-baseball-game) |
+| [0877-stone-game](https://github.com/himanshurainaa/leetcode-practice/tree/master/0877-stone-game) |
 | [0977-squares-of-a-sorted-array](https://github.com/himanshurainaa/leetcode-practice/tree/master/0977-squares-of-a-sorted-array) |
 | [1464-maximum-product-of-two-elements-in-an-array](https://github.com/himanshurainaa/leetcode-practice/tree/master/1464-maximum-product-of-two-elements-in-an-array) |
 | [1550-three-consecutive-odds](https://github.com/himanshurainaa/leetcode-practice/tree/master/1550-three-consecutive-odds) |
@@ -111,6 +113,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0198-house-robber](https://github.com/himanshurainaa/leetcode-practice/tree/master/0198-house-robber) |
 | [0486-predict-the-winner](https://github.com/himanshurainaa/leetcode-practice/tree/master/0486-predict-the-winner) |
+| [0877-stone-game](https://github.com/himanshurainaa/leetcode-practice/tree/master/0877-stone-game) |
 ## Bit Manipulation
 |  |
 | ------- |
@@ -145,4 +148,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0486-predict-the-winner](https://github.com/himanshurainaa/leetcode-practice/tree/master/0486-predict-the-winner) |
+| [0877-stone-game](https://github.com/himanshurainaa/leetcode-practice/tree/master/0877-stone-game) |
 <!---LeetCode Topics End-->

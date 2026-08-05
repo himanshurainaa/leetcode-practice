@@ -160,4 +160,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0881-boats-to-save-people](https://github.com/himanshurainaa/leetcode-practice/tree/master/0881-boats-to-save-people) |
+## Minimax
+|  |
+| ------- |
+| [0486-predict-the-winner](https://github.com/himanshurainaa/leetcode-practice/tree/master/0486-predict-the-winner) |
+## Zero-Sum Game
+|  |
+| ------- |
+| [0486-predict-the-winner](https://github.com/himanshurainaa/leetcode-practice/tree/master/0486-predict-the-winner) |
 <!---LeetCode Topics End-->

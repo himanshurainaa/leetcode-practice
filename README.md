@@ -22,6 +22,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Hash Table
 |  |
 | ------- |
+| [0217-contains-duplicate](https://github.com/himanshurainaa/leetcode-practice/tree/master/0217-contains-duplicate) |
 | [0387-first-unique-character-in-a-string](https://github.com/himanshurainaa/leetcode-practice/tree/master/0387-first-unique-character-in-a-string) |
 | [1832-check-if-the-sentence-is-pangram](https://github.com/himanshurainaa/leetcode-practice/tree/master/1832-check-if-the-sentence-is-pangram) |
 | [3016-minimum-number-of-pushes-to-type-word-ii](https://github.com/himanshurainaa/leetcode-practice/tree/master/3016-minimum-number-of-pushes-to-type-word-ii) |
@@ -58,6 +59,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0016-3sum-closest](https://github.com/himanshurainaa/leetcode-practice/tree/master/0016-3sum-closest) |
 | [0075-sort-colors](https://github.com/himanshurainaa/leetcode-practice/tree/master/0075-sort-colors) |
 | [0198-house-robber](https://github.com/himanshurainaa/leetcode-practice/tree/master/0198-house-robber) |
+| [0217-contains-duplicate](https://github.com/himanshurainaa/leetcode-practice/tree/master/0217-contains-duplicate) |
 | [0455-assign-cookies](https://github.com/himanshurainaa/leetcode-practice/tree/master/0455-assign-cookies) |
 | [0486-predict-the-winner](https://github.com/himanshurainaa/leetcode-practice/tree/master/0486-predict-the-winner) |
 | [0628-maximum-product-of-three-numbers](https://github.com/himanshurainaa/leetcode-practice/tree/master/0628-maximum-product-of-three-numbers) |
@@ -81,6 +83,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0016-3sum-closest](https://github.com/himanshurainaa/leetcode-practice/tree/master/0016-3sum-closest) |
 | [0075-sort-colors](https://github.com/himanshurainaa/leetcode-practice/tree/master/0075-sort-colors) |
+| [0217-contains-duplicate](https://github.com/himanshurainaa/leetcode-practice/tree/master/0217-contains-duplicate) |
 | [0455-assign-cookies](https://github.com/himanshurainaa/leetcode-practice/tree/master/0455-assign-cookies) |
 | [0628-maximum-product-of-three-numbers](https://github.com/himanshurainaa/leetcode-practice/tree/master/0628-maximum-product-of-three-numbers) |
 | [0881-boats-to-save-people](https://github.com/himanshurainaa/leetcode-practice/tree/master/0881-boats-to-save-people) |

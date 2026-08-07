@@ -1,122 +1,299 @@
-#include <string>
-#include <vector>
-#include <algorithm>
+int num_size, i, j;
+int num2, num3, num5, num7;
+char a, ri, len, need2, need3, ri2, ri3, ri5, ri7;
+bool need_increase;
 
-using namespace std;
+#define LIKELY(x) (__builtin_expect(!!(x), 1))
+#define UNLIKELY(x) (__builtin_expect(!!(x), 0))
 
 class Solution {
 public:
     string smallestNumber(string num, long long t) {
-        long long temp_t = t;
-        vector<int> req(4, 0);
-        vector<int> primes = {2, 3, 5, 7};
-        for (int i = 0; i < 4; ++i) {
-            while (temp_t % primes[i] == 0) {
-                req[i]++;
-                temp_t /= primes[i];
-            }
-        }
-
-        if (temp_t > 1) return "-1";
-
-        vector<vector<int>> factor_map = {
-            {0,0,0,0}, {0,0,0,0}, {1,0,0,0}, {0,1,0,0},
-            {2,0,0,0}, {0,0,1,0}, {1,1,0,0}, {0,0,0,1},
-            {3,0,0,0}, {0,2,0,0}
-        };
-
-        bool valid = true;
-        vector<int> current_factors(4, 0);
-        for (char c : num) {
-            if (c == '0') {
-                valid = false;
-                break;
-            }
-            vector<int> f = factor_map[c - '0'];
-            for (int j = 0; j < 4; ++j) {
-                current_factors[j] += f[j];
-            }
-        }
-        if (valid) {
-            bool ok = true;
-            for (int j = 0; j < 4; ++j) {
-                if (current_factors[j] < req[j]) {
-                    ok = false;
+        num_size = num.size();
+        if (UNLIKELY(t == 1)) {
+            for (i = 0; i < num.size(); ++i) {
+                if (UNLIKELY(num[i] == '0')) {
                     break;
                 }
             }
-            if (ok) return num;
+
+            for (; i < num_size; ++i) {
+                num[i] = '1';
+            }
+
+            return num;
         }
 
-        int N = num.length();
-        int limit = N;
-        for (int i = 0; i < N; ++i) {
-            if (num[i] == '0') {
-                limit = i;
+        num2 = __builtin_ctzll(t);
+        t >>= num2;
+
+        num3 = 0, num5 = 0, num7 = 0;
+        while (t % 3 == 0) {
+            ++num3;
+            t /= 3;
+        }
+        while (t % 5 == 0) {
+            ++num5;
+            t /= 5;
+        }
+        while (t % 7 == 0) {
+            ++num7;
+            t /= 7;
+        }
+
+        if (UNLIKELY(t != 1)) {
+            return "-1";
+        }
+
+        for (i = 0; i < num_size; ++i) {
+            if (UNLIKELY(num[i] == '0'))
+                break;
+            switch (num[i] - '0') {
+            case 9:
+                num3 -= 2;
+                break;
+            case 8:
+                num2 -= 3;
+                break;
+            case 7:
+                --num7;
+                break;
+            case 6:
+                --num2;
+                --num3;
+                break;
+            case 5:
+                --num5;
+                break;
+            case 4:
+                num2 -= 2;
+                break;
+            case 3:
+                --num3;
+                break;
+            case 2:
+                --num2;
+                break;
+            default:
                 break;
             }
         }
 
-        vector<vector<int>> pref_factors(N + 1, vector<int>(4, 0));
-        for (int i = 0; i < limit; ++i) {
-            int d = num[i] - '0';
-            for (int j = 0; j < 4; ++j) {
-                pref_factors[i + 1][j] = pref_factors[i][j] + factor_map[d][j];
-            }
+        for (; i < num_size; ++i) {
+            num[i] = '1';
         }
 
-        auto get_min_digits = [](int a, int b, int c, int d) -> string {
-            int c_8 = max(0, a) / 3;
-            int rem_a = max(0, a) % 3;
-            int c_9 = max(0, b) / 2;
-            int rem_b = max(0, b) % 2;
+        if (num2 < 1 && num3 < 1 && num5 < 1 && num7 < 1) {
+            return num;
+        }
 
-            string digits = "";
-            digits.append(max(0, d), '7');
-            digits.append(max(0, c), '5');
-            digits.append(c_8, '8');
-            digits.append(c_9, '9');
-
-            if (rem_a == 1 && rem_b == 0) digits += '2';
-            else if (rem_a == 2 && rem_b == 0) digits += '4';
-            else if (rem_a == 0 && rem_b == 1) digits += '3';
-            else if (rem_a == 1 && rem_b == 1) digits += '6';
-            else if (rem_a == 2 && rem_b == 1) digits += "26";
-
-            sort(digits.begin(), digits.end());
-            return digits;
-        };
-
-        // 3. Search for the smallest strictly greater valid string of length N
-        // We only replace with a digit STRICTLY GREATER than num[i].
-        for (int i = min(N - 1, limit); i >= 0; --i) {
-            int start_digit = 1;
-            if (i < limit) {
-                start_digit = (num[i] - '0') + 1;
+        need_increase = true;
+        for (i = num_size - 1; i >= 0; --i) {
+            a = num[i] - '0';
+            switch (a) {
+            case 9:
+                num3 += 2;
+                break;
+            case 8:
+                num2 += 3;
+                break;
+            case 7:
+                ++num7;
+                break;
+            case 6:
+                ++num2;
+                ++num3;
+                break;
+            case 5:
+                ++num5;
+                break;
+            case 4:
+                num2 += 2;
+                break;
+            case 3:
+                ++num3;
+                break;
+            case 2:
+                ++num2;
+                break;
+            default:
+                break;
             }
-            
-            for (int d = start_digit; d <= 9; ++d) {
-                vector<int> f = factor_map[d];
-                
-                int cur_a = req[0] - (pref_factors[i][0] + f[0]);
-                int cur_b = req[1] - (pref_factors[i][1] + f[1]);
-                int cur_c = req[2] - (pref_factors[i][2] + f[2]);
-                int cur_d = req[3] - (pref_factors[i][3] + f[3]);
-                
-                string min_str = get_min_digits(cur_a, cur_b, cur_c, cur_d);
-                int rem_len = N - 1 - i;
-                
-                if ((int)min_str.length() <= rem_len) {
-                    string padding(rem_len - min_str.length(), '1');
-                    string prefix = num.substr(0, i) + to_string(d);
-                    return prefix + padding + min_str;
+
+            need2 = max(num2, 0);
+            need3 = max(num3, 0);
+            len = need2 / 3 + need3 / 2 + max(num5, 0) + max(num7, 0);
+            need2 = need2 % 3;
+            need3 = need3 % 2;
+            len += (need2 + need3) / 2 + (need2 + need3) % 2;
+
+            if (UNLIKELY(len <= num_size - i)) {
+                for (ri = a + need_increase; ri < 10; ++ri) {
+                    ri2 = 0, ri3 = 0, ri5 = 0, ri7 = 0;
+                    switch (ri) {
+                    case 9:
+                        ri3 += 2;
+                        break;
+                    case 8:
+                        ri2 += 3;
+                        break;
+                    case 7:
+                        ++ri7;
+                        break;
+                    case 6:
+                        ++ri2;
+                        ++ri3;
+                        break;
+                    case 5:
+                        ++ri5;
+                        break;
+                    case 4:
+                        ri2 += 2;
+                        break;
+                    case 3:
+                        ++ri3;
+                        break;
+                    case 2:
+                        ++ri2;
+                        break;
+                    default:
+                        break;
+                    }
+
+                    need2 = max(num2 - ri2, 0);
+                    need3 = max(num3 - ri3, 0);
+                    len = need2 / 3 + need3 / 2 + max(num5 - ri5, 0) +
+                          max(num7 - ri7, 0);
+                    need2 = need2 % 3;
+                    need3 = need3 % 2;
+                    len += (need2 + need3) / 2 + (need2 + need3) % 2;
+
+                    if (LIKELY(len < num_size - i)) {
+                        num[i] = ri + '0';
+                        num2 -= ri2;
+                        num3 -= ri3;
+                        num5 -= ri5;
+                        num7 -= ri7;
+                        for (j = num_size - 1; j > i; --j) {
+                            if (num3 > 1) {
+                                num[j] = '9';
+                                num3 -= 2;
+                            } else if (num2 > 2) {
+                                num[j] = '8';
+                                num2 -= 3;
+                            } else if (num7 > 0) {
+                                num[j] = '7';
+                                --num7;
+                            } else if (num2 > 0 && num3 > 0) {
+                                num[j] = '6';
+                                --num2, --num3;
+                            } else if (num5 > 0) {
+                                num[j] = '5';
+                                --num5;
+                            } else if (num2 > 1) {
+                                num[j] = '4';
+                                num2 -= 2;
+                            } else if (num3 > 0) {
+                                num[j] = '3';
+                                --num2;
+                            } else if (num2 > 0) {
+                                num[j] = '2';
+                                --num2;
+                            } else {
+                                num[j] = '1';
+                            }
+                        }
+                        return num;
+                    }
+                }
+
+                num[i] = '1';
+                need_increase = false;
+
+                for (j = i - 1; LIKELY(j >= 0); --j) {
+                    a = num[j] - '0';
+                    if (UNLIKELY(a != 9)) {
+                        switch (a) {
+                        case 8:
+                            num2 += 3, num3 -= 2;
+                            break;
+                        case 7:
+                            ++num7, num2 -= 3;
+                            break;
+                        case 6:
+                            ++num2, ++num3, --num7;
+                            break;
+                        case 5:
+                            ++num5, --num2, --num3;
+                            break;
+                        case 4:
+                            num2 += 2, --num5;
+                            break;
+                        case 3:
+                            ++num3, num2 -= 2;
+                            break;
+                        case 2:
+                            ++num2, --num3;
+                            break;
+                        default:
+                            --num2;
+                            break;
+                        }
+                        ++num[j];
+                        break;
+                    }
+                    num[j] = '1';
+                    num3 += 2;
+                }
+                if (j == -1) {
+                    num.insert(num.begin(), '1');
+                    ++num_size;
+                    break;
                 }
             }
         }
 
-        string min_str = get_min_digits(req[0], req[1], req[2], req[3]);
-        int target_len = max(N + 1, (int)min_str.length());
-        string padding(target_len - min_str.length(), '1');
-        return padding + min_str;
+        if (need_increase) {
+            num.insert(num.begin(), '1');
+            ++num_size;
+        }
+
+        i = num_size - 1;
+        while (num2 > 0 || num3 > 0 || num5 > 0 || num7 > 0) {
+            if (num3 > 1) {
+                a = '9';
+                num3 -= 2;
+            } else if (num2 > 2) {
+                a = '8';
+                num2 -= 3;
+            } else if (num7 > 0) {
+                a = '7';
+                --num7;
+            } else if (num2 > 0 && num3 > 0) {
+                a = '6';
+                --num2, --num3;
+            } else if (num5 > 0) {
+                a = '5';
+                --num5;
+            } else if (num2 > 1) {
+                a = '4';
+                num2 -= 2;
+            } else if (num3 > 0) {
+                a = '3';
+                --num3;
+            } else if (num2 > 0) {
+                a = '2';
+                --num2;
+            }
+
+            if (LIKELY(i > -1)) {
+                num[i--] = a;
+            } else {
+                num.reserve(21);
+                num.insert(num.begin(), a);
+            }
+        }
+
+        return num;
     }
 };

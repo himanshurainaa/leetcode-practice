@@ -8,6 +8,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0486-predict-the-winner](https://github.com/himanshurainaa/leetcode-practice/tree/master/0486-predict-the-winner) |
 | [0628-maximum-product-of-three-numbers](https://github.com/himanshurainaa/leetcode-practice/tree/master/0628-maximum-product-of-three-numbers) |
 | [0877-stone-game](https://github.com/himanshurainaa/leetcode-practice/tree/master/0877-stone-game) |
+| [1140-stone-game-ii](https://github.com/himanshurainaa/leetcode-practice/tree/master/1140-stone-game-ii) |
 | [1281-subtract-the-product-and-sum-of-digits-of-an-integer](https://github.com/himanshurainaa/leetcode-practice/tree/master/1281-subtract-the-product-and-sum-of-digits-of-an-integer) |
 | [1486-xor-operation-in-an-array](https://github.com/himanshurainaa/leetcode-practice/tree/master/1486-xor-operation-in-an-array) |
 | [1822-sign-of-the-product-of-an-array](https://github.com/himanshurainaa/leetcode-practice/tree/master/1822-sign-of-the-product-of-an-array) |
@@ -70,6 +71,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0877-stone-game](https://github.com/himanshurainaa/leetcode-practice/tree/master/0877-stone-game) |
 | [0881-boats-to-save-people](https://github.com/himanshurainaa/leetcode-practice/tree/master/0881-boats-to-save-people) |
 | [0977-squares-of-a-sorted-array](https://github.com/himanshurainaa/leetcode-practice/tree/master/0977-squares-of-a-sorted-array) |
+| [1140-stone-game-ii](https://github.com/himanshurainaa/leetcode-practice/tree/master/1140-stone-game-ii) |
 | [1464-maximum-product-of-two-elements-in-an-array](https://github.com/himanshurainaa/leetcode-practice/tree/master/1464-maximum-product-of-two-elements-in-an-array) |
 | [1550-three-consecutive-odds](https://github.com/himanshurainaa/leetcode-practice/tree/master/1550-three-consecutive-odds) |
 | [1672-richest-customer-wealth](https://github.com/himanshurainaa/leetcode-practice/tree/master/1672-richest-customer-wealth) |
@@ -124,6 +126,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0198-house-robber](https://github.com/himanshurainaa/leetcode-practice/tree/master/0198-house-robber) |
 | [0486-predict-the-winner](https://github.com/himanshurainaa/leetcode-practice/tree/master/0486-predict-the-winner) |
 | [0877-stone-game](https://github.com/himanshurainaa/leetcode-practice/tree/master/0877-stone-game) |
+| [1140-stone-game-ii](https://github.com/himanshurainaa/leetcode-practice/tree/master/1140-stone-game-ii) |
 | [3302-find-the-lexicographically-smallest-valid-sequence](https://github.com/himanshurainaa/leetcode-practice/tree/master/3302-find-the-lexicographically-smallest-valid-sequence) |
 ## Bit Manipulation
 |  |
@@ -163,6 +166,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0486-predict-the-winner](https://github.com/himanshurainaa/leetcode-practice/tree/master/0486-predict-the-winner) |
 | [0877-stone-game](https://github.com/himanshurainaa/leetcode-practice/tree/master/0877-stone-game) |
+| [1140-stone-game-ii](https://github.com/himanshurainaa/leetcode-practice/tree/master/1140-stone-game-ii) |
 ## Timsort
 |  |
 | ------- |
@@ -171,10 +175,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0486-predict-the-winner](https://github.com/himanshurainaa/leetcode-practice/tree/master/0486-predict-the-winner) |
+| [1140-stone-game-ii](https://github.com/himanshurainaa/leetcode-practice/tree/master/1140-stone-game-ii) |
 ## Zero-Sum Game
 |  |
 | ------- |
 | [0486-predict-the-winner](https://github.com/himanshurainaa/leetcode-practice/tree/master/0486-predict-the-winner) |
+| [1140-stone-game-ii](https://github.com/himanshurainaa/leetcode-practice/tree/master/1140-stone-game-ii) |
 ## Backtracking
 |  |
 | ------- |
@@ -183,4 +189,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [3348-smallest-divisible-digit-product-ii](https://github.com/himanshurainaa/leetcode-practice/tree/master/3348-smallest-divisible-digit-product-ii) |
+## Prefix Sum
+|  |
+| ------- |
+| [1140-stone-game-ii](https://github.com/himanshurainaa/leetcode-practice/tree/master/1140-stone-game-ii) |
 <!---LeetCode Topics End-->

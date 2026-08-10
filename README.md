@@ -193,4 +193,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1140-stone-game-ii](https://github.com/himanshurainaa/leetcode-practice/tree/master/1140-stone-game-ii) |
+## Database
+|  |
+| ------- |
+| [1757-recyclable-and-low-fat-products](https://github.com/himanshurainaa/leetcode-practice/tree/master/1757-recyclable-and-low-fat-products) |
 <!---LeetCode Topics End-->
